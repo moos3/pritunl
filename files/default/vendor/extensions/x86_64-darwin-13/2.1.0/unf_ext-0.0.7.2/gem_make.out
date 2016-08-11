@@ -1,0 +1,21 @@
+current directory: /Users/moose/Code/pritunl/files/default/vendor/gems/unf_ext-0.0.7.2/ext/unf_ext
+/opt/chefdk/embedded/bin/ruby -r ./siteconf20160810-96706-1cdfwy6.rb extconf.rb
+checking for main() in -lstdc++... yes
+creating Makefile
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /Users/moose/Code/pritunl/files/default/vendor/extensions/x86_64-darwin-13/2.1.0/unf_ext-0.0.7.2/mkmf.log
+
+current directory: /Users/moose/Code/pritunl/files/default/vendor/gems/unf_ext-0.0.7.2/ext/unf_ext
+make "DESTDIR=" clean
+
+current directory: /Users/moose/Code/pritunl/files/default/vendor/gems/unf_ext-0.0.7.2/ext/unf_ext
+make "DESTDIR="
+compiling unf.cc
+linking shared-object unf_ext.bundle
+
+current directory: /Users/moose/Code/pritunl/files/default/vendor/gems/unf_ext-0.0.7.2/ext/unf_ext
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 unf_ext.bundle ./.gem.20160810-96706-p5d7rn
+installing default unf_ext libraries

@@ -9,3 +9,4 @@ default['pritunl']['data_path'] = "/var/lib/pritunl"
 default['pritunl']['user'] = "admin"
 default['pritunl']['password'] = 'admin'
 default['pritunl']['url'] = "http://localhost:9700"
+default['build-essential']['compile_time'] = true
